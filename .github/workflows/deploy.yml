@@ -1,6 +1,6 @@
 name: Deploy
 
-# This repository holds only the built Deck Consistency app (its source is private).
+# This repository holds only the built Yu-Gi-Oh Deck Builder app (its source is private).
 # On every push, and once a day, it refreshes the banlists and publishes the site to GitHub Pages.
 on:
   push:

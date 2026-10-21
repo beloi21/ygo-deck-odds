@@ -1,4 +1,4 @@
-# Deck Consistency
+# Yu-Gi-Oh Deck Builder by A.R.C. Alberto
 
 Opening-hand odds for Yu-Gi-Oh! Master Duel and OCG decks: https://beloi21.github.io/ygo-deck-odds/
 
