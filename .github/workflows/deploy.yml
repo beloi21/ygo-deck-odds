@@ -1,7 +1,7 @@
 name: Deploy
 
 # This repository holds only the built Yu-Gi-Oh Deck Builder app (its source is private).
-# On every push, and once a day, it refreshes the banlists and publishes the site to GitHub Pages.
+# On every push, and once a day, it refreshes the banlists, adds images for new cards and publishes the site to GitHub Pages.
 on:
   push:
     branches: [main]
@@ -40,6 +40,24 @@ jobs:
             git commit -am "Refresh banlists"
             git push
           fi
+      # Card images live in the Actions cache, not in git: restore the copy, add images for new cards, save it again.
+      - name: Restore card images
+        uses: actions/cache/restore@v4
+        with:
+          path: cards
+          key: cards-${{ github.run_id }}
+          restore-keys: cards-
+      - name: Add images for new cards
+        id: sync
+        run: node tools/sync-card-images.mjs cards
+        continue-on-error: true
+      # Only when something was added (or the download was cut short), so the cache does not fill with copies.
+      - name: Save card images
+        if: always() && steps.sync.outputs.saved != '0'
+        uses: actions/cache/save@v4
+        with:
+          path: cards
+          key: cards-${{ github.run_id }}
       - name: Stage the site
         run: |
           mkdir _site
