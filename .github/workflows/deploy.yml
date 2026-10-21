@@ -1,0 +1,52 @@
+name: Deploy
+
+# This repository holds only the built Deck Consistency app (its source is private).
+# On every push, and once a day, it refreshes the banlists and publishes the site to GitHub Pages.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      # Writes only when a list changed or the saved copy is 6+ days old; a failed download keeps the saved copy.
+      - name: Refresh banlists
+        run: BANLISTS_OUT=banlists.json node tools/update-banlists.mjs --force --ci
+      - name: Save changed banlists
+        run: |
+          if ! git diff --quiet banlists.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+            git commit -am "Refresh banlists"
+            git push
+          fi
+      - name: Stage the site
+        run: |
+          mkdir _site
+          rsync -a --exclude .git --exclude .github --exclude tools --exclude _site --exclude README.md ./ _site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

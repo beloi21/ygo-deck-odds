@@ -1,0 +1,2217 @@
+{
+ "updatedAt": "2026-10-21T07:31:34.772Z",
+ "lists": {
+  "OCG": {
+   "source": "YGOPRODeck (OCG list)",
+   "entries": [
+    {
+     "id": 21044178,
+     "name": "Abyss Dweller",
+     "status": "Forbidden"
+    },
+    {
+     "id": 62320425,
+     "name": "Agido the Ancient Sentinel",
+     "status": "Forbidden"
+    },
+    {
+     "id": 1475311,
+     "name": "Allure of Darkness",
+     "status": "Limited"
+    },
+    {
+     "id": 91869203,
+     "name": "Amazoness Archer",
+     "status": "Forbidden"
+    },
+    {
+     "id": 58921041,
+     "name": "Anti-Spell Fragrance",
+     "status": "Limited"
+    },
+    {
+     "id": 4280258,
+     "name": "Apollousa, Bow of the Goddess",
+     "status": "Forbidden"
+    },
+    {
+     "id": 4280259,
+     "name": "Apollousa, Bow of the Goddess",
+     "status": "Forbidden"
+    },
+    {
+     "id": 43262273,
+     "name": "Appointer of the Red Lotus",
+     "status": "Limited"
+    },
+    {
+     "id": 20292186,
+     "name": "Artifact Scythe",
+     "status": "Forbidden"
+    },
+    {
+     "id": 14558127,
+     "name": "Ash Blossom & Joyous Spring",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 14558128,
+     "name": "Ash Blossom & Joyous Spring",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 73356503,
+     "name": "Barrier Statue of the Stormwinds",
+     "status": "Forbidden"
+    },
+    {
+     "id": 27552504,
+     "name": "Beatrice, Lady of the Eternal",
+     "status": "Forbidden"
+    },
+    {
+     "id": 9929398,
+     "name": "Blackwing - Gofu the Vague Shadow",
+     "status": "Forbidden"
+    },
+    {
+     "id": 6602300,
+     "name": "Blaze Fenix, the Burning Bombardment Bird",
+     "status": "Limited"
+    },
+    {
+     "id": 94689206,
+     "name": "Block Dragon",
+     "status": "Limited"
+    },
+    {
+     "id": 85106525,
+     "name": "Bonfire",
+     "status": "Limited"
+    },
+    {
+     "id": 1041278,
+     "name": "Branded Expulsion",
+     "status": "Forbidden"
+    },
+    {
+     "id": 44362883,
+     "name": "Branded Fusion",
+     "status": "Limited"
+    },
+    {
+     "id": 7394770,
+     "name": "Brilliant Fusion",
+     "status": "Limited"
+    },
+    {
+     "id": 69243953,
+     "name": "Butterfly Dagger - Elma",
+     "status": "Forbidden"
+    },
+    {
+     "id": 6637331,
+     "name": "Bystial Druiswurm",
+     "status": "Limited"
+    },
+    {
+     "id": 33854624,
+     "name": "Bystial Magnamhut",
+     "status": "Limited"
+    },
+    {
+     "id": 24224830,
+     "name": "Called by the Grave",
+     "status": "Forbidden"
+    },
+    {
+     "id": 11384280,
+     "name": "Cannon Soldier",
+     "status": "Forbidden"
+    },
+    {
+     "id": 14702066,
+     "name": "Cannon Soldier MK-2",
+     "status": "Forbidden"
+    },
+    {
+     "id": 72892473,
+     "name": "Card Destruction",
+     "status": "Limited"
+    },
+    {
+     "id": 57953380,
+     "name": "Card of Safe Return",
+     "status": "Forbidden"
+    },
+    {
+     "id": 95727991,
+     "name": "Catapult Turtle",
+     "status": "Forbidden"
+    },
+    {
+     "id": 3040496,
+     "name": "Chaos Ruler, the Chaotic Magical Dragon",
+     "status": "Forbidden"
+    },
+    {
+     "id": 60682203,
+     "name": "Cold Wave",
+     "status": "Forbidden"
+    },
+    {
+     "id": 17375316,
+     "name": "Confiscation",
+     "status": "Forbidden"
+    },
+    {
+     "id": 65681983,
+     "name": "Crossout Designator",
+     "status": "Limited"
+    },
+    {
+     "id": 50588353,
+     "name": "Crystron Halqifibrax",
+     "status": "Forbidden"
+    },
+    {
+     "id": 69015963,
+     "name": "Cyber-Stein",
+     "status": "Forbidden"
+    },
+    {
+     "id": 15341821,
+     "name": "Dandylion",
+     "status": "Forbidden"
+    },
+    {
+     "id": 44763025,
+     "name": "Delinquent Duo",
+     "status": "Forbidden"
+    },
+    {
+     "id": 23557835,
+     "name": "Dimension Fusion",
+     "status": "Forbidden"
+    },
+    {
+     "id": 91800273,
+     "name": "Dimension Shifter",
+     "status": "Forbidden"
+    },
+    {
+     "id": 83326048,
+     "name": "Dimensional Barrier",
+     "status": "Limited"
+    },
+    {
+     "id": 31423101,
+     "name": "Divine Sword - Phoenix Blade",
+     "status": "Forbidden"
+    },
+    {
+     "id": 8903700,
+     "name": "Djinn Releaser of Rituals",
+     "status": "Forbidden"
+    },
+    {
+     "id": 40366667,
+     "name": "Dominus Impulse",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 7375867,
+     "name": "Dracotail Mululu",
+     "status": "Limited"
+    },
+    {
+     "id": 94145021,
+     "name": "Droll & Lock Bird",
+     "status": "Limited"
+    },
+    {
+     "id": 94145022,
+     "name": "Droll & Lock Bird",
+     "status": "Limited"
+    },
+    {
+     "id": 13597785,
+     "name": "Elfnote Lucina",
+     "status": "Limited"
+    },
+    {
+     "id": 59581480,
+     "name": "Elfnote Tinia",
+     "status": "Limited"
+    },
+    {
+     "id": 38273745,
+     "name": "Evilswarm Ouroboros",
+     "status": "Forbidden"
+    },
+    {
+     "id": 33396948,
+     "name": "Exodia the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 34022970,
+     "name": "Ext Ryzeal",
+     "status": "Limited"
+    },
+    {
+     "id": 78706415,
+     "name": "Fiber Jar",
+     "status": "Forbidden"
+    },
+    {
+     "id": 60764609,
+     "name": "Fiendsmith Engraver",
+     "status": "Limited"
+    },
+    {
+     "id": 98567237,
+     "name": "Fiendsmith's Tract",
+     "status": "Limited"
+    },
+    {
+     "id": 93369354,
+     "name": "Fishborg Blaster",
+     "status": "Forbidden"
+    },
+    {
+     "id": 81439173,
+     "name": "Foolish Burial",
+     "status": "Limited"
+    },
+    {
+     "id": 81439174,
+     "name": "Foolish Burial",
+     "status": "Limited"
+    },
+    {
+     "id": 35726888,
+     "name": "Foolish Burial Goods",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 27970830,
+     "name": "Gateway of the Six",
+     "status": "Limited"
+    },
+    {
+     "id": 52119435,
+     "name": "Geonator Transverser",
+     "status": "Forbidden"
+    },
+    {
+     "id": 42703248,
+     "name": "Giant Trunade",
+     "status": "Forbidden"
+    },
+    {
+     "id": 75500286,
+     "name": "Gold Sarcophagus",
+     "status": "Limited"
+    },
+    {
+     "id": 53334471,
+     "name": "Gozen Match",
+     "status": "Limited"
+    },
+    {
+     "id": 79571449,
+     "name": "Graceful Charity",
+     "status": "Forbidden"
+    },
+    {
+     "id": 75732622,
+     "name": "Grinder Golem",
+     "status": "Forbidden"
+    },
+    {
+     "id": 59537380,
+     "name": "Guardragon Agarpain",
+     "status": "Forbidden"
+    },
+    {
+     "id": 86148577,
+     "name": "Guardragon Elpy",
+     "status": "Forbidden"
+    },
+    {
+     "id": 18144507,
+     "name": "Harpie's Feather Duster",
+     "status": "Limited"
+    },
+    {
+     "id": 18144506,
+     "name": "Harpie's Feather Duster",
+     "status": "Limited"
+    },
+    {
+     "id": 87639778,
+     "name": "Harpie's Feather Storm",
+     "status": "Forbidden"
+    },
+    {
+     "id": 19613556,
+     "name": "Heavy Storm",
+     "status": "Limited"
+    },
+    {
+     "id": 24094258,
+     "name": "Heavymetalfoes Electrumite",
+     "status": "Limited"
+    },
+    {
+     "id": 17266660,
+     "name": "Herald of Orange Light",
+     "status": "Limited"
+    },
+    {
+     "id": 79606837,
+     "name": "Herald of the Arc Light",
+     "status": "Limited"
+    },
+    {
+     "id": 62242678,
+     "name": "Hot Red Dragon Archfiend King Calamity",
+     "status": "Forbidden"
+    },
+    {
+     "id": 8633261,
+     "name": "Ice Ryzeal",
+     "status": "Limited"
+    },
+    {
+     "id": 61740673,
+     "name": "Imperial Order",
+     "status": "Forbidden"
+    },
+    {
+     "id": 1845204,
+     "name": "Instant Fusion",
+     "status": "Limited"
+    },
+    {
+     "id": 92248362,
+     "name": "K9-17 Izuna",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 28642461,
+     "name": "K9-66a Jokul",
+     "status": "Limited"
+    },
+    {
+     "id": 35059553,
+     "name": "Kaiser Colosseum",
+     "status": "Forbidden"
+    },
+    {
+     "id": 32909498,
+     "name": "Kashtira Fenrir",
+     "status": "Forbidden"
+    },
+    {
+     "id": 68304193,
+     "name": "Kashtira Unicorn",
+     "status": "Limited"
+    },
+    {
+     "id": 25926710,
+     "name": "Kelbek the Ancient Vanguard",
+     "status": "Forbidden"
+    },
+    {
+     "id": 63542003,
+     "name": "Keldo the Sacred Protector",
+     "status": "Limited"
+    },
+    {
+     "id": 6153210,
+     "name": "Ketu Dracotail",
+     "status": "Limited"
+    },
+    {
+     "id": 16387555,
+     "name": "Kewl Tune Cue",
+     "status": "Limited"
+    },
+    {
+     "id": 89392810,
+     "name": "Kewl Tune Reco",
+     "status": "Limited"
+    },
+    {
+     "id": 17209452,
+     "name": "Kewl Tune Rotary",
+     "status": "Limited"
+    },
+    {
+     "id": 78058681,
+     "name": "Kewl Tune Synchro",
+     "status": "Limited"
+    },
+    {
+     "id": 3679218,
+     "name": "Knightmare Mermaid",
+     "status": "Forbidden"
+    },
+    {
+     "id": 28566710,
+     "name": "Last Turn",
+     "status": "Forbidden"
+    },
+    {
+     "id": 85602018,
+     "name": "Last Will",
+     "status": "Forbidden"
+    },
+    {
+     "id": 34086406,
+     "name": "Lavalval Chain",
+     "status": "Forbidden"
+    },
+    {
+     "id": 7902349,
+     "name": "Left Arm of the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 44519536,
+     "name": "Left Leg of the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 57421866,
+     "name": "Level Eater",
+     "status": "Forbidden"
+    },
+    {
+     "id": 17178486,
+     "name": "Life Equalizer",
+     "status": "Forbidden"
+    },
+    {
+     "id": 85243784,
+     "name": "Linkross",
+     "status": "Forbidden"
+    },
+    {
+     "id": 32723153,
+     "name": "Magical Explosion",
+     "status": "Forbidden"
+    },
+    {
+     "id": 34206604,
+     "name": "Magical Scientist",
+     "status": "Forbidden"
+    },
+    {
+     "id": 10966439,
+     "name": "Marshmao☆Yummy",
+     "status": "Limited"
+    },
+    {
+     "id": 34906152,
+     "name": "Mass Driver",
+     "status": "Forbidden"
+    },
+    {
+     "id": 23434538,
+     "name": "Maxx \"C\"",
+     "status": "Limited"
+    },
+    {
+     "id": 41482598,
+     "name": "Mirage of Nightmare",
+     "status": "Forbidden"
+    },
+    {
+     "id": 45171524,
+     "name": "Mitsurugi Prayers",
+     "status": "Limited"
+    },
+    {
+     "id": 83764719,
+     "name": "Monster Reborn",
+     "status": "Limited"
+    },
+    {
+     "id": 83764718,
+     "name": "Monster Reborn",
+     "status": "Limited"
+    },
+    {
+     "id": 71818935,
+     "name": "Moon of the Closed Heaven",
+     "status": "Forbidden"
+    },
+    {
+     "id": 99937011,
+     "name": "Mudora the Sword Oracle",
+     "status": "Limited"
+    },
+    {
+     "id": 76375976,
+     "name": "Mystic Mine",
+     "status": "Forbidden"
+    },
+    {
+     "id": 61049315,
+     "name": "Naturia Rosewhip",
+     "status": "Forbidden"
+    },
+    {
+     "id": 54719828,
+     "name": "Number 16: Shock Master",
+     "status": "Forbidden"
+    },
+    {
+     "id": 75433814,
+     "name": "Number 40: Gimmick Puppet of Strings",
+     "status": "Limited"
+    },
+    {
+     "id": 90590303,
+     "name": "Number 41: Bagooska the Terribly Tired Tapir",
+     "status": "Forbidden"
+    },
+    {
+     "id": 90590304,
+     "name": "Number 41: Bagooska the Terribly Tired Tapir",
+     "status": "Forbidden"
+    },
+    {
+     "id": 35772782,
+     "name": "Number 67: Pair-a-Dice Smasher",
+     "status": "Forbidden"
+    },
+    {
+     "id": 63504681,
+     "name": "Number 86: Heroic Champion - Rhongomyniad",
+     "status": "Forbidden"
+    },
+    {
+     "id": 58820923,
+     "name": "Number 95: Galaxy-Eyes Dark Matter Dragon",
+     "status": "Forbidden"
+    },
+    {
+     "id": 52653092,
+     "name": "Number S0: Utopic ZEXAL",
+     "status": "Forbidden"
+    },
+    {
+     "id": 72537897,
+     "name": "Obedience Schooled",
+     "status": "Forbidden"
+    },
+    {
+     "id": 33782437,
+     "name": "One Day of Peace",
+     "status": "Limited"
+    },
+    {
+     "id": 2295440,
+     "name": "One for One",
+     "status": "Limited"
+    },
+    {
+     "id": 34945480,
+     "name": "Outer Entity Azathot",
+     "status": "Forbidden"
+    },
+    {
+     "id": 74191942,
+     "name": "Painful Choice",
+     "status": "Forbidden"
+    },
+    {
+     "id": 13203964,
+     "name": "Perfectron Hydradrive Dragon",
+     "status": "Limited"
+    },
+    {
+     "id": 80453041,
+     "name": "Phantom of Yubel",
+     "status": "Limited"
+    },
+    {
+     "id": 23558733,
+     "name": "Phoenixian Cluster Amaryllis",
+     "status": "Forbidden"
+    },
+    {
+     "id": 49238328,
+     "name": "Pot of Extravagance",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 55144522,
+     "name": "Pot of Greed",
+     "status": "Forbidden"
+    },
+    {
+     "id": 84211599,
+     "name": "Pot of Prosperity",
+     "status": "Limited"
+    },
+    {
+     "id": 13048472,
+     "name": "Pre-Preparation of Rites",
+     "status": "Limited"
+    },
+    {
+     "id": 70369116,
+     "name": "Predaplant Verte Anaconda",
+     "status": "Forbidden"
+    },
+    {
+     "id": 70828912,
+     "name": "Premature Burial",
+     "status": "Limited"
+    },
+    {
+     "id": 23701465,
+     "name": "Primal Seed",
+     "status": "Limited"
+    },
+    {
+     "id": 77103950,
+     "name": "Primeval Planet Perlereino",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 25661743,
+     "name": "Prohibited Power Patron Portal - Terminus",
+     "status": "Limited"
+    },
+    {
+     "id": 38814750,
+     "name": "PSY-Framegear Gamma",
+     "status": "Limited"
+    },
+    {
+     "id": 74586817,
+     "name": "PSY-Framelord Omega",
+     "status": "Forbidden"
+    },
+    {
+     "id": 32548318,
+     "name": "Rahu Dracotail",
+     "status": "Limited"
+    },
+    {
+     "id": 23002292,
+     "name": "Red Reboot",
+     "status": "Limited"
+    },
+    {
+     "id": 32807846,
+     "name": "Reinforcement of the Army",
+     "status": "Limited"
+    },
+    {
+     "id": 27174286,
+     "name": "Return from the Different Dimension",
+     "status": "Forbidden"
+    },
+    {
+     "id": 70903634,
+     "name": "Right Arm of the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 8124921,
+     "name": "Right Leg of the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 90846359,
+     "name": "Rivalry of Warlords",
+     "status": "Limited"
+    },
+    {
+     "id": 93016201,
+     "name": "Royal Oppression",
+     "status": "Forbidden"
+    },
+    {
+     "id": 92107604,
+     "name": "Runick Fountain",
+     "status": "Limited"
+    },
+    {
+     "id": 29301450,
+     "name": "S:P Little Knight",
+     "status": "Limited"
+    },
+    {
+     "id": 66730191,
+     "name": "Sangen Kaimen",
+     "status": "Limited"
+    },
+    {
+     "id": 30336082,
+     "name": "Sangen Summoning",
+     "status": "Limited"
+    },
+    {
+     "id": 68462976,
+     "name": "Secret Village of the Spellcasters",
+     "status": "Limited"
+    },
+    {
+     "id": 73468603,
+     "name": "Set Rotation",
+     "status": "Limited"
+    },
+    {
+     "id": 7477101,
+     "name": "Seventh Tachyon",
+     "status": "Limited"
+    },
+    {
+     "id": 3280747,
+     "name": "Sixth Sense",
+     "status": "Forbidden"
+    },
+    {
+     "id": 82732705,
+     "name": "Skill Drain",
+     "status": "Limited"
+    },
+    {
+     "id": 52340444,
+     "name": "Sky Striker Mecha - Hornet Drones",
+     "status": "Limited"
+    },
+    {
+     "id": 63166095,
+     "name": "Sky Striker Mobilize - Engage!",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 63789924,
+     "name": "Smoke Grenade of the Thief",
+     "status": "Forbidden"
+    },
+    {
+     "id": 9674034,
+     "name": "Snake-Eye Ash",
+     "status": "Limited"
+    },
+    {
+     "id": 90241276,
+     "name": "Snake-Eyes Poplar",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 41420027,
+     "name": "Solemn Judgment",
+     "status": "Limited"
+    },
+    {
+     "id": 84749824,
+     "name": "Solemn Warning",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 54447022,
+     "name": "Soul Charge",
+     "status": "Forbidden"
+    },
+    {
+     "id": 59859086,
+     "name": "Splash Mage",
+     "status": "Forbidden"
+    },
+    {
+     "id": 27381364,
+     "name": "Spright Elf",
+     "status": "Forbidden"
+    },
+    {
+     "id": 20663556,
+     "name": "Substitoad",
+     "status": "Forbidden"
+    },
+    {
+     "id": 23516703,
+     "name": "Summon Limit",
+     "status": "Forbidden"
+    },
+    {
+     "id": 48130397,
+     "name": "Super Polymerization",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 77679716,
+     "name": "Superheavy Samurai Soulbreaker Armor",
+     "status": "Forbidden"
+    },
+    {
+     "id": 90361010,
+     "name": "Superheavy Samurai Soulpiercer",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 43387895,
+     "name": "Supreme King Dragon Starving Venom",
+     "status": "Forbidden"
+    },
+    {
+     "id": 35844557,
+     "name": "Sword Ryzeal",
+     "status": "Limited"
+    },
+    {
+     "id": 99243014,
+     "name": "Synchro Overtake",
+     "status": "Limited"
+    },
+    {
+     "id": 90953320,
+     "name": "T.G. Hyper Librarian",
+     "status": "Limited"
+    },
+    {
+     "id": 37961969,
+     "name": "Tearlaments Havnis",
+     "status": "Limited"
+    },
+    {
+     "id": 4928565,
+     "name": "Tearlaments Kashtira",
+     "status": "Limited"
+    },
+    {
+     "id": 92731385,
+     "name": "Tearlaments Kitkallos",
+     "status": "Forbidden"
+    },
+    {
+     "id": 74078255,
+     "name": "Tearlaments Merrli",
+     "status": "Limited"
+    },
+    {
+     "id": 572850,
+     "name": "Tearlaments Scheiren",
+     "status": "Limited"
+    },
+    {
+     "id": 63101919,
+     "name": "Tempest Magician",
+     "status": "Forbidden"
+    },
+    {
+     "id": 91810826,
+     "name": "Tenpai Dragon Chundra",
+     "status": "Limited"
+    },
+    {
+     "id": 73628505,
+     "name": "Terraforming",
+     "status": "Limited"
+    },
+    {
+     "id": 11110587,
+     "name": "That Grass Looks Greener",
+     "status": "Limited"
+    },
+    {
+     "id": 32731036,
+     "name": "The Bystial Lubellion",
+     "status": "Limited"
+    },
+    {
+     "id": 30271097,
+     "name": "The Fallen & The Virtuous",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 42829885,
+     "name": "The Forceful Sentry",
+     "status": "Forbidden"
+    },
+    {
+     "id": 88071625,
+     "name": "The Tyrant Neptune",
+     "status": "Forbidden"
+    },
+    {
+     "id": 24207889,
+     "name": "There Can Be Only One",
+     "status": "Limited"
+    },
+    {
+     "id": 79875176,
+     "name": "Toon Cannon Soldier",
+     "status": "Forbidden"
+    },
+    {
+     "id": 89997728,
+     "name": "Toon Table of Contents",
+     "status": "Limited"
+    },
+    {
+     "id": 7293697,
+     "name": "Toon World the Perfect World",
+     "status": "Limited"
+    },
+    {
+     "id": 22593417,
+     "name": "Topologic Gumblar Dragon",
+     "status": "Forbidden"
+    },
+    {
+     "id": 64697231,
+     "name": "Trap Dustshoot",
+     "status": "Forbidden"
+    },
+    {
+     "id": 88581108,
+     "name": "True King of All Calamities",
+     "status": "Forbidden"
+    },
+    {
+     "id": 80604092,
+     "name": "Ultimate Offering",
+     "status": "Forbidden"
+    },
+    {
+     "id": 80604091,
+     "name": "Ultimate Offering",
+     "status": "Forbidden"
+    },
+    {
+     "id": 83152482,
+     "name": "Union Carrier",
+     "status": "Forbidden"
+    },
+    {
+     "id": 5851097,
+     "name": "Vanity's Emptiness",
+     "status": "Forbidden"
+    },
+    {
+     "id": 93156774,
+     "name": "Vanquish Soul Hollie Sue",
+     "status": "Limited"
+    },
+    {
+     "id": 29302858,
+     "name": "Vanquish Soul Razen",
+     "status": "Limited"
+    },
+    {
+     "id": 44910027,
+     "name": "Victory Dragon",
+     "status": "Forbidden"
+    },
+    {
+     "id": 80845034,
+     "name": "WANTED: Seeker of Sinful Spoils",
+     "status": "Limited"
+    },
+    {
+     "id": 16923472,
+     "name": "Wind-Up Hunter",
+     "status": "Forbidden"
+    },
+    {
+     "id": 30581601,
+     "name": "Yummy★Snatchy",
+     "status": "Limited"
+    },
+    {
+     "id": 85115440,
+     "name": "Zoodiac Broadbull",
+     "status": "Forbidden"
+    },
+    {
+     "id": 78872731,
+     "name": "Zoodiac Ratpier",
+     "status": "Semi-Limited"
+    }
+   ],
+   "fetchedAt": "2026-10-21T07:31:34.441Z"
+  },
+  "MD": {
+   "source": "Master Duel Meta",
+   "entries": [
+    {
+     "id": 21044178,
+     "name": "Abyss Dweller",
+     "status": "Forbidden"
+    },
+    {
+     "id": 91869203,
+     "name": "Amazoness Archer",
+     "status": "Forbidden"
+    },
+    {
+     "id": 73356503,
+     "name": "Barrier Statue of the Stormwinds",
+     "status": "Forbidden"
+    },
+    {
+     "id": 80237445,
+     "name": "Artifact Mjollnir",
+     "status": "Forbidden"
+    },
+    {
+     "id": 58921041,
+     "name": "Anti-Spell Fragrance",
+     "status": "Forbidden"
+    },
+    {
+     "id": 43262273,
+     "name": "Appointer of the Red Lotus",
+     "status": "Forbidden"
+    },
+    {
+     "id": 20292186,
+     "name": "Artifact Scythe",
+     "status": "Forbidden"
+    },
+    {
+     "id": 59509952,
+     "name": "Archlord Kristya",
+     "status": "Forbidden"
+    },
+    {
+     "id": 4280258,
+     "name": "Apollousa, Bow of the Goddess",
+     "status": "Forbidden"
+    },
+    {
+     "id": 4280259,
+     "name": "Apollousa, Bow of the Goddess",
+     "status": "Forbidden"
+    },
+    {
+     "id": 19740112,
+     "name": "Barrier Statue of the Drought",
+     "status": "Forbidden"
+    },
+    {
+     "id": 27552504,
+     "name": "Beatrice, Lady of the Eternal",
+     "status": "Forbidden"
+    },
+    {
+     "id": 57953380,
+     "name": "Card of Safe Return",
+     "status": "Forbidden"
+    },
+    {
+     "id": 14702066,
+     "name": "Cannon Soldier MK-2",
+     "status": "Forbidden"
+    },
+    {
+     "id": 11384280,
+     "name": "Cannon Soldier",
+     "status": "Forbidden"
+    },
+    {
+     "id": 69243953,
+     "name": "Butterfly Dagger - Elma",
+     "status": "Forbidden"
+    },
+    {
+     "id": 24224830,
+     "name": "Called by the Grave",
+     "status": "Forbidden"
+    },
+    {
+     "id": 17375316,
+     "name": "Confiscation",
+     "status": "Forbidden"
+    },
+    {
+     "id": 50588353,
+     "name": "Crystron Halqifibrax",
+     "status": "Forbidden"
+    },
+    {
+     "id": 9929398,
+     "name": "Blackwing - Gofu the Vague Shadow",
+     "status": "Forbidden"
+    },
+    {
+     "id": 59750328,
+     "name": "Card of Demise",
+     "status": "Forbidden"
+    },
+    {
+     "id": 60682203,
+     "name": "Cold Wave",
+     "status": "Forbidden"
+    },
+    {
+     "id": 95727991,
+     "name": "Catapult Turtle",
+     "status": "Forbidden"
+    },
+    {
+     "id": 3040496,
+     "name": "Chaos Ruler, the Chaotic Magical Dragon",
+     "status": "Forbidden"
+    },
+    {
+     "id": 15341821,
+     "name": "Dandylion",
+     "status": "Forbidden"
+    },
+    {
+     "id": 69015963,
+     "name": "Cyber-Stein",
+     "status": "Forbidden"
+    },
+    {
+     "id": 44763025,
+     "name": "Delinquent Duo",
+     "status": "Forbidden"
+    },
+    {
+     "id": 8903700,
+     "name": "Djinn Releaser of Rituals",
+     "status": "Forbidden"
+    },
+    {
+     "id": 23557835,
+     "name": "Dimension Fusion",
+     "status": "Forbidden"
+    },
+    {
+     "id": 31423101,
+     "name": "Divine Sword - Phoenix Blade",
+     "status": "Forbidden"
+    },
+    {
+     "id": 91800273,
+     "name": "Dimension Shifter",
+     "status": "Forbidden"
+    },
+    {
+     "id": 38273745,
+     "name": "Evilswarm Ouroboros",
+     "status": "Forbidden"
+    },
+    {
+     "id": 17412721,
+     "name": "Elder Entity Norden",
+     "status": "Forbidden"
+    },
+    {
+     "id": 93369354,
+     "name": "Fishborg Blaster",
+     "status": "Forbidden"
+    },
+    {
+     "id": 78706415,
+     "name": "Fiber Jar",
+     "status": "Forbidden"
+    },
+    {
+     "id": 42009836,
+     "name": "Fossil Dyna Pachycephalo",
+     "status": "Forbidden"
+    },
+    {
+     "id": 55204071,
+     "name": "Gimmick Puppet Nightmare",
+     "status": "Forbidden"
+    },
+    {
+     "id": 42703248,
+     "name": "Giant Trunade",
+     "status": "Forbidden"
+    },
+    {
+     "id": 35984222,
+     "name": "Ido the Supreme Magical Force",
+     "status": "Forbidden"
+    },
+    {
+     "id": 59537380,
+     "name": "Guardragon Agarpain",
+     "status": "Forbidden"
+    },
+    {
+     "id": 87639778,
+     "name": "Harpie's Feather Storm",
+     "status": "Forbidden"
+    },
+    {
+     "id": 79571449,
+     "name": "Graceful Charity",
+     "status": "Forbidden"
+    },
+    {
+     "id": 62242678,
+     "name": "Hot Red Dragon Archfiend King Calamity",
+     "status": "Forbidden"
+    },
+    {
+     "id": 86148577,
+     "name": "Guardragon Elpy",
+     "status": "Forbidden"
+    },
+    {
+     "id": 75732622,
+     "name": "Grinder Golem",
+     "status": "Forbidden"
+    },
+    {
+     "id": 61740673,
+     "name": "Imperial Order",
+     "status": "Forbidden"
+    },
+    {
+     "id": 35059553,
+     "name": "Kaiser Colosseum",
+     "status": "Forbidden"
+    },
+    {
+     "id": 41855169,
+     "name": "Jowgen the Spiritualist",
+     "status": "Forbidden"
+    },
+    {
+     "id": 32723153,
+     "name": "Magical Explosion",
+     "status": "Forbidden"
+    },
+    {
+     "id": 76815942,
+     "name": "Lyrilusc - Independent Nightingale",
+     "status": "Forbidden"
+    },
+    {
+     "id": 34206604,
+     "name": "Magical Scientist",
+     "status": "Forbidden"
+    },
+    {
+     "id": 17178486,
+     "name": "Life Equalizer",
+     "status": "Forbidden"
+    },
+    {
+     "id": 85243784,
+     "name": "Linkross",
+     "status": "Forbidden"
+    },
+    {
+     "id": 85602018,
+     "name": "Last Will",
+     "status": "Forbidden"
+    },
+    {
+     "id": 10158145,
+     "name": "Knightmare Corruptor Iblee",
+     "status": "Forbidden"
+    },
+    {
+     "id": 57421866,
+     "name": "Level Eater",
+     "status": "Forbidden"
+    },
+    {
+     "id": 28566710,
+     "name": "Last Turn",
+     "status": "Forbidden"
+    },
+    {
+     "id": 34086406,
+     "name": "Lavalval Chain",
+     "status": "Forbidden"
+    },
+    {
+     "id": 41482598,
+     "name": "Mirage of Nightmare",
+     "status": "Forbidden"
+    },
+    {
+     "id": 76375976,
+     "name": "Mystic Mine",
+     "status": "Forbidden"
+    },
+    {
+     "id": 34906152,
+     "name": "Mass Driver",
+     "status": "Forbidden"
+    },
+    {
+     "id": 54719828,
+     "name": "Number 16: Shock Master",
+     "status": "Forbidden"
+    },
+    {
+     "id": 96782886,
+     "name": "Mind Master",
+     "status": "Forbidden"
+    },
+    {
+     "id": 61049315,
+     "name": "Naturia Rosewhip",
+     "status": "Forbidden"
+    },
+    {
+     "id": 52653092,
+     "name": "Number S0: Utopic ZEXAL",
+     "status": "Forbidden"
+    },
+    {
+     "id": 35772782,
+     "name": "Number 67: Pair-a-Dice Smasher",
+     "status": "Forbidden"
+    },
+    {
+     "id": 63504681,
+     "name": "Number 86: Heroic Champion - Rhongomyniad",
+     "status": "Forbidden"
+    },
+    {
+     "id": 95474755,
+     "name": "Number 89: Diablosis the Mind Hacker",
+     "status": "Forbidden"
+    },
+    {
+     "id": 34945480,
+     "name": "Outer Entity Azathot",
+     "status": "Forbidden"
+    },
+    {
+     "id": 74191942,
+     "name": "Painful Choice",
+     "status": "Forbidden"
+    },
+    {
+     "id": 55144522,
+     "name": "Pot of Greed",
+     "status": "Forbidden"
+    },
+    {
+     "id": 58820923,
+     "name": "Number 95: Galaxy-Eyes Dark Matter Dragon",
+     "status": "Forbidden"
+    },
+    {
+     "id": 74586817,
+     "name": "PSY-Framelord Omega",
+     "status": "Forbidden"
+    },
+    {
+     "id": 90590303,
+     "name": "Number 41: Bagooska the Terribly Tired Tapir",
+     "status": "Forbidden"
+    },
+    {
+     "id": 90590304,
+     "name": "Number 41: Bagooska the Terribly Tired Tapir",
+     "status": "Forbidden"
+    },
+    {
+     "id": 72537897,
+     "name": "Obedience Schooled",
+     "status": "Forbidden"
+    },
+    {
+     "id": 19619755,
+     "name": "Performapal Five-Rainbow Magician",
+     "status": "Forbidden"
+    },
+    {
+     "id": 84211599,
+     "name": "Pot of Prosperity",
+     "status": "Forbidden"
+    },
+    {
+     "id": 70828912,
+     "name": "Premature Burial",
+     "status": "Forbidden"
+    },
+    {
+     "id": 90884403,
+     "name": "Phantasmal Lord Ultimitl Bishbaalkin",
+     "status": "Forbidden"
+    },
+    {
+     "id": 23558733,
+     "name": "Phoenixian Cluster Amaryllis",
+     "status": "Forbidden"
+    },
+    {
+     "id": 27174286,
+     "name": "Return from the Different Dimension",
+     "status": "Forbidden"
+    },
+    {
+     "id": 73468603,
+     "name": "Set Rotation",
+     "status": "Forbidden"
+    },
+    {
+     "id": 93016201,
+     "name": "Royal Oppression",
+     "status": "Forbidden"
+    },
+    {
+     "id": 3280747,
+     "name": "Sixth Sense",
+     "status": "Forbidden"
+    },
+    {
+     "id": 68462976,
+     "name": "Secret Village of the Spellcasters",
+     "status": "Forbidden"
+    },
+    {
+     "id": 57585212,
+     "name": "Self-Destruct Button",
+     "status": "Forbidden"
+    },
+    {
+     "id": 54447022,
+     "name": "Soul Charge",
+     "status": "Forbidden"
+    },
+    {
+     "id": 63789924,
+     "name": "Smoke Grenade of the Thief",
+     "status": "Forbidden"
+    },
+    {
+     "id": 20663556,
+     "name": "Substitoad",
+     "status": "Forbidden"
+    },
+    {
+     "id": 73628505,
+     "name": "Terraforming",
+     "status": "Forbidden"
+    },
+    {
+     "id": 63101919,
+     "name": "Tempest Magician",
+     "status": "Forbidden"
+    },
+    {
+     "id": 77679716,
+     "name": "Superheavy Samurai Soulbreaker Armor",
+     "status": "Forbidden"
+    },
+    {
+     "id": 42829885,
+     "name": "The Forceful Sentry",
+     "status": "Forbidden"
+    },
+    {
+     "id": 23516703,
+     "name": "Summon Limit",
+     "status": "Forbidden"
+    },
+    {
+     "id": 99243014,
+     "name": "Synchro Overtake",
+     "status": "Forbidden"
+    },
+    {
+     "id": 22593417,
+     "name": "Topologic Gumblar Dragon",
+     "status": "Forbidden"
+    },
+    {
+     "id": 88581108,
+     "name": "True King of All Calamities",
+     "status": "Forbidden"
+    },
+    {
+     "id": 64697231,
+     "name": "Trap Dustshoot",
+     "status": "Forbidden"
+    },
+    {
+     "id": 88071625,
+     "name": "The Tyrant Neptune",
+     "status": "Forbidden"
+    },
+    {
+     "id": 79875176,
+     "name": "Toon Cannon Soldier",
+     "status": "Forbidden"
+    },
+    {
+     "id": 90809975,
+     "name": "Toadally Awesome",
+     "status": "Forbidden"
+    },
+    {
+     "id": 83152482,
+     "name": "Union Carrier",
+     "status": "Forbidden"
+    },
+    {
+     "id": 80604091,
+     "name": "Ultimate Offering",
+     "status": "Forbidden"
+    },
+    {
+     "id": 5851097,
+     "name": "Vanity's Emptiness",
+     "status": "Forbidden"
+    },
+    {
+     "id": 80604092,
+     "name": "Ultimate Offering",
+     "status": "Forbidden"
+    },
+    {
+     "id": 16923472,
+     "name": "Wind-Up Hunter",
+     "status": "Forbidden"
+    },
+    {
+     "id": 1041278,
+     "name": "Branded Expulsion",
+     "status": "Forbidden"
+    },
+    {
+     "id": 77103950,
+     "name": "Primeval Planet Perlereino",
+     "status": "Forbidden"
+    },
+    {
+     "id": 74078255,
+     "name": "Tearlaments Merrli",
+     "status": "Forbidden"
+    },
+    {
+     "id": 25926710,
+     "name": "Kelbek the Ancient Vanguard",
+     "status": "Forbidden"
+    },
+    {
+     "id": 62320425,
+     "name": "Agido the Ancient Sentinel",
+     "status": "Forbidden"
+    },
+    {
+     "id": 6798031,
+     "name": "Ryzeal Cross",
+     "status": "Forbidden"
+    },
+    {
+     "id": 68059897,
+     "name": "Maliss Q Red Ransom",
+     "status": "Forbidden"
+    },
+    {
+     "id": 24224830,
+     "name": "Called by the Grave",
+     "status": "Forbidden"
+    },
+    {
+     "id": 24224830,
+     "name": "Called by the Grave",
+     "status": "Forbidden"
+    },
+    {
+     "id": 91800273,
+     "name": "Dimension Shifter",
+     "status": "Forbidden"
+    },
+    {
+     "id": 32181268,
+     "name": "Amano-Iwato",
+     "status": "Limited"
+    },
+    {
+     "id": 1475311,
+     "name": "Allure of Darkness",
+     "status": "Limited"
+    },
+    {
+     "id": 72892473,
+     "name": "Card Destruction",
+     "status": "Limited"
+    },
+    {
+     "id": 6602300,
+     "name": "Blaze Fenix, the Burning Bombardment Bird",
+     "status": "Limited"
+    },
+    {
+     "id": 65681983,
+     "name": "Crossout Designator",
+     "status": "Limited"
+    },
+    {
+     "id": 81439174,
+     "name": "Foolish Burial",
+     "status": "Limited"
+    },
+    {
+     "id": 33396948,
+     "name": "Exodia the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 81439173,
+     "name": "Foolish Burial",
+     "status": "Limited"
+    },
+    {
+     "id": 35726888,
+     "name": "Foolish Burial Goods",
+     "status": "Limited"
+    },
+    {
+     "id": 55623480,
+     "name": "Fairy Tail - Snow",
+     "status": "Limited"
+    },
+    {
+     "id": 75500286,
+     "name": "Gold Sarcophagus",
+     "status": "Limited"
+    },
+    {
+     "id": 18144506,
+     "name": "Harpie's Feather Duster",
+     "status": "Limited"
+    },
+    {
+     "id": 17266660,
+     "name": "Herald of Orange Light",
+     "status": "Limited"
+    },
+    {
+     "id": 19613556,
+     "name": "Heavy Storm",
+     "status": "Limited"
+    },
+    {
+     "id": 79606837,
+     "name": "Herald of the Arc Light",
+     "status": "Limited"
+    },
+    {
+     "id": 18144507,
+     "name": "Harpie's Feather Duster",
+     "status": "Limited"
+    },
+    {
+     "id": 53334471,
+     "name": "Gozen Match",
+     "status": "Limited"
+    },
+    {
+     "id": 1845204,
+     "name": "Instant Fusion",
+     "status": "Limited"
+    },
+    {
+     "id": 15397015,
+     "name": "Inspector Boarder",
+     "status": "Limited"
+    },
+    {
+     "id": 44519536,
+     "name": "Left Leg of the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 7902349,
+     "name": "Left Arm of the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 23434538,
+     "name": "Maxx \"C\"",
+     "status": "Limited"
+    },
+    {
+     "id": 83764718,
+     "name": "Monster Reborn",
+     "status": "Limited"
+    },
+    {
+     "id": 83764719,
+     "name": "Monster Reborn",
+     "status": "Limited"
+    },
+    {
+     "id": 38814750,
+     "name": "PSY-Framegear Gamma",
+     "status": "Limited"
+    },
+    {
+     "id": 33782437,
+     "name": "One Day of Peace",
+     "status": "Limited"
+    },
+    {
+     "id": 2295440,
+     "name": "One for One",
+     "status": "Limited"
+    },
+    {
+     "id": 70369116,
+     "name": "Predaplant Verte Anaconda",
+     "status": "Limited"
+    },
+    {
+     "id": 49238328,
+     "name": "Pot of Extravagance",
+     "status": "Limited"
+    },
+    {
+     "id": 98645731,
+     "name": "Pot of Duality",
+     "status": "Limited"
+    },
+    {
+     "id": 8124921,
+     "name": "Right Leg of the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 32807846,
+     "name": "Reinforcement of the Army",
+     "status": "Limited"
+    },
+    {
+     "id": 90846359,
+     "name": "Rivalry of Warlords",
+     "status": "Limited"
+    },
+    {
+     "id": 70903634,
+     "name": "Right Arm of the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 82732705,
+     "name": "Skill Drain",
+     "status": "Limited"
+    },
+    {
+     "id": 52340444,
+     "name": "Sky Striker Mecha - Hornet Drones",
+     "status": "Limited"
+    },
+    {
+     "id": 41420027,
+     "name": "Solemn Judgment",
+     "status": "Limited"
+    },
+    {
+     "id": 84749824,
+     "name": "Solemn Warning",
+     "status": "Limited"
+    },
+    {
+     "id": 11110587,
+     "name": "That Grass Looks Greener",
+     "status": "Limited"
+    },
+    {
+     "id": 40605147,
+     "name": "Solemn Strike",
+     "status": "Limited"
+    },
+    {
+     "id": 90361010,
+     "name": "Superheavy Samurai Soulpiercer",
+     "status": "Limited"
+    },
+    {
+     "id": 24207889,
+     "name": "There Can Be Only One",
+     "status": "Limited"
+    },
+    {
+     "id": 85115440,
+     "name": "Zoodiac Broadbull",
+     "status": "Limited"
+    },
+    {
+     "id": 28126717,
+     "name": "Floowandereeze and the Magnificent Map",
+     "status": "Limited"
+    },
+    {
+     "id": 44362883,
+     "name": "Branded Fusion",
+     "status": "Limited"
+    },
+    {
+     "id": 94445733,
+     "name": "Runick Destruction",
+     "status": "Limited"
+    },
+    {
+     "id": 92107604,
+     "name": "Runick Fountain",
+     "status": "Limited"
+    },
+    {
+     "id": 92731385,
+     "name": "Tearlaments Kitkallos",
+     "status": "Limited"
+    },
+    {
+     "id": 74920585,
+     "name": "Tearlaments Sulliek",
+     "status": "Limited"
+    },
+    {
+     "id": 33854624,
+     "name": "Bystial Magnamhut",
+     "status": "Limited"
+    },
+    {
+     "id": 63542003,
+     "name": "Keldo the Sacred Protector",
+     "status": "Limited"
+    },
+    {
+     "id": 99937011,
+     "name": "Mudora the Sword Oracle",
+     "status": "Limited"
+    },
+    {
+     "id": 71832012,
+     "name": "Pressured Planet Wraitsoth",
+     "status": "Limited"
+    },
+    {
+     "id": 4928565,
+     "name": "Tearlaments Kashtira",
+     "status": "Limited"
+    },
+    {
+     "id": 60306277,
+     "name": "Synchro Zone",
+     "status": "Limited"
+    },
+    {
+     "id": 54562327,
+     "name": "Stake your Soul!",
+     "status": "Limited"
+    },
+    {
+     "id": 85106525,
+     "name": "Bonfire",
+     "status": "Limited"
+    },
+    {
+     "id": 80845034,
+     "name": "WANTED: Seeker of Sinful Spoils",
+     "status": "Limited"
+    },
+    {
+     "id": 9674034,
+     "name": "Snake-Eye Ash",
+     "status": "Limited"
+    },
+    {
+     "id": 91810826,
+     "name": "Tenpai Dragon Chundra",
+     "status": "Limited"
+    },
+    {
+     "id": 30336082,
+     "name": "Sangen Summoning",
+     "status": "Limited"
+    },
+    {
+     "id": 66730191,
+     "name": "Sangen Kaimen",
+     "status": "Limited"
+    },
+    {
+     "id": 32807846,
+     "name": "Reinforcement of the Army",
+     "status": "Limited"
+    },
+    {
+     "id": 18144507,
+     "name": "Harpie's Feather Duster",
+     "status": "Limited"
+    },
+    {
+     "id": 2295440,
+     "name": "One for One",
+     "status": "Limited"
+    },
+    {
+     "id": 35844557,
+     "name": "Sword Ryzeal",
+     "status": "Limited"
+    },
+    {
+     "id": 34022970,
+     "name": "Ext Ryzeal",
+     "status": "Limited"
+    },
+    {
+     "id": 69272449,
+     "name": "Maliss P White Rabbit",
+     "status": "Limited"
+    },
+    {
+     "id": 96676583,
+     "name": "Maliss P Chessy Cat",
+     "status": "Limited"
+    },
+    {
+     "id": 32061192,
+     "name": "Maliss P Dormouse",
+     "status": "Limited"
+    },
+    {
+     "id": 68337209,
+     "name": "Maliss in Underground",
+     "status": "Limited"
+    },
+    {
+     "id": 45171524,
+     "name": "Mitsurugi Prayers",
+     "status": "Limited"
+    },
+    {
+     "id": 75003700,
+     "name": "Dracotail Lukias",
+     "status": "Limited"
+    },
+    {
+     "id": 32548318,
+     "name": "Rahu Dracotail",
+     "status": "Limited"
+    },
+    {
+     "id": 31425736,
+     "name": "Cupsy☆Yummy",
+     "status": "Limited"
+    },
+    {
+     "id": 49238328,
+     "name": "Pot of Extravagance",
+     "status": "Limited"
+    },
+    {
+     "id": 20508881,
+     "name": "Radiant Typhoon Vision",
+     "status": "Limited"
+    },
+    {
+     "id": 16387555,
+     "name": "Kewl Tune Cue",
+     "status": "Limited"
+    },
+    {
+     "id": 65681983,
+     "name": "Crossout Designator",
+     "status": "Limited"
+    },
+    {
+     "id": 41420027,
+     "name": "Solemn Judgment",
+     "status": "Limited"
+    },
+    {
+     "id": 84749824,
+     "name": "Solemn Warning",
+     "status": "Limited"
+    },
+    {
+     "id": 81439174,
+     "name": "Foolish Burial",
+     "status": "Limited"
+    },
+    {
+     "id": 17209452,
+     "name": "Kewl Tune Rotary",
+     "status": "Limited"
+    },
+    {
+     "id": 33396948,
+     "name": "Exodia the Forbidden One",
+     "status": "Limited"
+    },
+    {
+     "id": 68337209,
+     "name": "Maliss in Underground",
+     "status": "Limited"
+    },
+    {
+     "id": 83764719,
+     "name": "Monster Reborn",
+     "status": "Limited"
+    },
+    {
+     "id": 18144507,
+     "name": "Harpie's Feather Duster",
+     "status": "Limited"
+    },
+    {
+     "id": 18144507,
+     "name": "Harpie's Feather Duster",
+     "status": "Limited"
+    },
+    {
+     "id": 8628798,
+     "name": "D.D. Dynamite",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 94145021,
+     "name": "Droll & Lock Bird",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 94145022,
+     "name": "Droll & Lock Bird",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 28297833,
+     "name": "Necroface",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 23002292,
+     "name": "Red Reboot",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 48130397,
+     "name": "Super Polymerization",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 78872731,
+     "name": "Zoodiac Ratpier",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 67835547,
+     "name": "Runick Slumber",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 30430448,
+     "name": "Runick Freezing Curses",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 31562086,
+     "name": "Runick Tip",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 572850,
+     "name": "Tearlaments Scheiren",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 68304193,
+     "name": "Kashtira Unicorn",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 29302858,
+     "name": "Vanquish Soul Razen",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 9091064,
+     "name": "Vanquish Soul Jiaolong",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 60764609,
+     "name": "Fiendsmith Engraver",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 6153210,
+     "name": "Ketu Dracotail",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 69299029,
+     "name": "Treasures of the Kings",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 7375867,
+     "name": "Dracotail Mululu",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 28642461,
+     "name": "K9-66a Jokul",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 13332685,
+     "name": "Ame no Habakiri no Mitsurugi",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 54143349,
+     "name": "Radiant Typhoon Eldam",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 67115133,
+     "name": "Radiant Typhoon Chant",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 10966439,
+     "name": "Marshmao☆Yummy",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 16509007,
+     "name": "Kewl Tune Mix",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 89392810,
+     "name": "Kewl Tune Reco",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 78058681,
+     "name": "Kewl Tune Synchro",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 30271097,
+     "name": "The Fallen & The Virtuous",
+     "status": "Semi-Limited"
+    },
+    {
+     "id": 48130397,
+     "name": "Super Polymerization",
+     "status": "Semi-Limited"
+    }
+   ],
+   "fetchedAt": "2026-10-21T07:31:34.772Z"
+  }
+ }
+}
