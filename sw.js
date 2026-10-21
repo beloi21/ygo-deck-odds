@@ -2,7 +2,7 @@
 // Pages and the banlist file: network first, so updates show up as soon as you are online.
 // Built files (their names change with every build) and fonts: cache first.
 // Card-database and banlist-refresh requests are never cached here (the app keeps its own card cache).
-const CACHE = 'ygo-deck-builder-v5';
+const CACHE = 'ygo-deck-builder-v6';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './manifest.webmanifest', './banlists.json'])));
