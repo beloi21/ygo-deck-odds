@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" preserveAspectRatio="xMidYMid slice">
-  <!-- Binder-cover texture drawn for Yu-Gi-Oh Deck Builder: a brown vortex around a black oval, after the card back. Authored SVG, not Konami artwork. -->
+  <!-- Binder-cover texture drawn for Oh!-Mi-Yu-Gi: a brown vortex around a black oval, after the card back. Authored SVG, not Konami artwork. -->
   <rect width="400" height="560" fill="#24140b"/>
   <g fill="none" stroke-linecap="round" opacity="0.9">
     <path d="M200 40c120 0 180 100 168 220-12 130-120 230-240 210C30 452-8 340 40 250 86 162 196 140 252 190c54 48 40 132-20 160-52 24-110-6-110-60" stroke="#4a2a16" stroke-width="34"/>

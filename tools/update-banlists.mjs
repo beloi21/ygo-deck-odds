@@ -1,4 +1,4 @@
-// Refreshes public/banlists.json with the current OCG and Master Duel Forbidden & Limited lists.
+// Refreshes public/banlists.json with the current OCG Forbidden & Limited list.
 // Runs before `npm run dev` / `npm run build`, at most once a day (pass --force to refresh now).
 // Any failure keeps the existing file, so the app still works offline.
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
@@ -23,7 +23,7 @@ function current() {
 
 async function getJson(url) {
   const res = await fetch(url, {
-    headers: { 'User-Agent': 'ygo-consistency-analyzer (personal deck tool; daily banlist check)' },
+    headers: { 'User-Agent': 'oh-mi-yu-gi (fan-made OCG deck tool; daily banlist check)' },
     signal: AbortSignal.timeout(30_000),
   });
   if (!res.ok) throw new Error(`${res.status} from ${url}`);
@@ -31,7 +31,6 @@ async function getJson(url) {
 }
 
 const OCG_STATUS = { Forbidden: 'Forbidden', Limited: 'Limited', 'Semi-Limited': 'Semi-Limited' };
-const MD_STATUS = { Forbidden: 'Forbidden', 'Limited 1': 'Limited', 'Limited 2': 'Semi-Limited' };
 
 async function ocg() {
   const { data } = await getJson('https://db.ygoprodeck.com/api/v7/cardinfo.php?banlist=ocg');
@@ -45,25 +44,16 @@ async function ocg() {
   return { source: 'YGOPRODeck (OCG list)', entries };
 }
 
-async function md() {
-  const entries = [];
-  for (const [raw, status] of Object.entries(MD_STATUS)) {
-    const cards = await getJson(`https://www.masterduelmeta.com/api/v1/cards?banStatus=${encodeURIComponent(raw)}&limit=3000`);
-    for (const c of cards) entries.push({ id: Number(c.konamiID) || 0, name: c.name, status });
-  }
-  if (entries.length < 50) throw new Error(`Master Duel list looks incomplete (${entries.length} cards)`);
-  return { source: 'Master Duel Meta', entries };
-}
-
 const old = current();
 if (!force && old?.updatedAt && Date.now() - Date.parse(old.updatedAt) < DAY) {
   console.log(`Banlists are less than a day old (${old.updatedAt}); skipping.`);
   process.exit(0);
 }
 
-const lists = { ...(old?.lists ?? {}) };
-let changed = false;
-for (const [format, get] of [['OCG', ocg], ['MD', md]]) {
+// Only the OCG list is kept (the app dropped Master Duel).
+const lists = old?.lists?.OCG ? { OCG: old.lists.OCG } : {};
+let changed = Object.keys(old?.lists ?? {}).some((k) => k !== 'OCG');
+for (const [format, get] of [['OCG', ocg]]) {
   try {
     const fresh = await get();
     const prev = lists[format];

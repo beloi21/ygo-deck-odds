@@ -1,7 +1,7 @@
 {
-  "name": "Yu-Gi-Oh Deck Builder by A.R.C. Alberto",
-  "short_name": "YGO Deck Builder",
-  "description": "Opening-hand odds, ratio optimizer, banlists and a paper shopping list for Yu-Gi-Oh! Master Duel and OCG decks. Free and fan-made.",
+  "name": "Oh!-Mi-Yu-Gi by A.R.C. Alberto",
+  "short_name": "Oh!-Mi-Yu-Gi",
+  "description": "Yu-Gi-Oh! OCG collection tracker and deck builder: collection binders, opening-hand odds, ratio optimizer, banlist and a paper shopping list. Free and fan-made.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

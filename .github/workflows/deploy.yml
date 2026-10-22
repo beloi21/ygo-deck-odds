@@ -1,7 +1,7 @@
 name: Deploy
 
-# This repository holds only the built Yu-Gi-Oh Deck Builder app (its source is private).
-# On every push, and once a day, it refreshes the banlists, adds images for new cards and publishes the site to GitHub Pages.
+# This repository holds only the built Oh!-Mi-Yu-Gi app (its source is private).
+# On every push, and once a day, it refreshes the OCG banlist, adds images for new cards and publishes the site to GitHub Pages.
 on:
   push:
     branches: [main]
