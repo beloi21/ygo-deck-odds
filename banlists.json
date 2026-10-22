@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T07:31:34.772Z",
+ "updatedAt": "2026-10-22T08:04:50.268Z",
  "lists": {
   "OCG": {
    "source": "YGOPRODeck (OCG list)",
@@ -1040,7 +1040,7 @@
      "status": "Semi-Limited"
     }
    ],
-   "fetchedAt": "2026-10-21T07:31:34.441Z"
+   "fetchedAt": "2026-10-22T08:04:50.199Z"
   },
   "MD": {
    "source": "Master Duel Meta",
