@@ -2,6 +2,8 @@ name: Deploy
 
 # This repository holds only the built Oh!-Mi-Yu-Gi app (its source is private).
 # On every push, and once a day, it refreshes the OCG banlist, adds images for new cards and publishes the site to GitHub Pages.
+# Actions are pinned to exact commits (the comment names the version). The build job can push only the banlist
+# update and drops its git credential before any downloaded package code runs; only the deploy job can publish.
 on:
   push:
     branches: [main]
@@ -9,24 +11,20 @@ on:
     - cron: '17 3 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+permissions: {}
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '24'
       # Writes only when a list changed or the saved copy is 6+ days old; a failed download keeps the saved copy.
@@ -40,9 +38,12 @@ jobs:
             git commit -am "Refresh banlists"
             git push
           fi
+      # Nothing below needs to push, so the token checkout saved for git is removed before third-party code runs.
+      - name: Drop the git credential
+        run: git config --local --unset-all http.https://github.com/.extraheader || true
       # Card images live in the Actions cache, not in git: restore the copy, add images for new cards, save it again.
       - name: Restore card images
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: cards
           key: cards-${{ github.run_id }}
@@ -54,27 +55,28 @@ jobs:
       # Only when something was added (or the download was cut short), so the cache does not fill with copies.
       - name: Save card images
         if: always() && steps.sync.outputs.saved != '0'
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: cards
           key: cards-${{ github.run_id }}
       # The Scan tab's art index: one vector per artwork, made from the images above (only the vectors are published).
       # Vectors and the model are cached, so a daily run embeds only new cards. If it fails, the site still deploys.
       - name: Restore scan vectors
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: scan-cache
           key: scan-${{ github.run_id }}
           restore-keys: scan-
+      # Exact versions from the lockfile, with install scripts off (onnxruntime-node's only fetches GPU files).
       - name: Build the scan index
         id: scan
         continue-on-error: true
         run: |
-          npm install --prefix tools --no-audit --no-fund
+          npm ci --prefix tools --ignore-scripts --no-audit --no-fund
           node tools/build-art-index.mjs --images cards --out scan --cache scan-cache/art-vectors.bin --model scan-cache/model.onnx
       - name: Save scan vectors
         if: always() && steps.scan.outputs.embedded != '' && steps.scan.outputs.embedded != '0'
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: scan-cache
           key: scan-${{ github.run_id }}
@@ -82,9 +84,20 @@ jobs:
         run: |
           mkdir _site
           rsync -a --exclude .git --exclude .github --exclude tools --exclude scan-cache --exclude _site --exclude README.md ./ _site/
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
           path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
