@@ -58,10 +58,30 @@ jobs:
         with:
           path: cards
           key: cards-${{ github.run_id }}
+      # The Scan tab's art index: one vector per artwork, made from the images above (only the vectors are published).
+      # Vectors and the model are cached, so a daily run embeds only new cards. If it fails, the site still deploys.
+      - name: Restore scan vectors
+        uses: actions/cache/restore@v4
+        with:
+          path: scan-cache
+          key: scan-${{ github.run_id }}
+          restore-keys: scan-
+      - name: Build the scan index
+        id: scan
+        continue-on-error: true
+        run: |
+          npm install --prefix tools --no-audit --no-fund
+          node tools/build-art-index.mjs --images cards --out scan --cache scan-cache/art-vectors.bin --model scan-cache/model.onnx
+      - name: Save scan vectors
+        if: always() && steps.scan.outputs.embedded != '' && steps.scan.outputs.embedded != '0'
+        uses: actions/cache/save@v4
+        with:
+          path: scan-cache
+          key: scan-${{ github.run_id }}
       - name: Stage the site
         run: |
           mkdir _site
-          rsync -a --exclude .git --exclude .github --exclude tools --exclude _site --exclude README.md ./ _site/
+          rsync -a --exclude .git --exclude .github --exclude tools --exclude scan-cache --exclude _site --exclude README.md ./ _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

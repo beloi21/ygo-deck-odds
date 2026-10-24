@@ -1,0 +1,10 @@
+{
+  "name": "site-tools",
+  "private": true,
+  "type": "module",
+  "description": "What the site's workflow needs to build the Scan tab's art index.",
+  "dependencies": {
+    "onnxruntime-node": "1.30.0",
+    "sharp": "0.35.5"
+  }
+}
