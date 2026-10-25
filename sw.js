@@ -4,7 +4,7 @@
 // Card-database and banlist-refresh requests are never cached here (the app keeps its own card cache).
 // Scan files: the manifest network first; the model and art index carry their hash in the address (?v=…), so they
 // are cache first, and saving a new version drops the old one, keeping one copy of each.
-const CACHE = 'oh-mi-yu-gi-v13';
+const CACHE = 'oh-mi-yu-gi-v14';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './manifest.webmanifest', './banlists.json'])));
