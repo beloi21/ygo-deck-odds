@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T13:48:55.824Z",
+ "updatedAt": "2026-11-05T10:49:14.811Z",
  "lists": {
   "OCG": {
    "source": "YGOPRODeck (OCG list)",
@@ -630,6 +630,11 @@
      "status": "Forbidden"
     },
     {
+     "id": 7293697,
+     "name": "Perfect Toon World",
+     "status": "Limited"
+    },
+    {
      "id": 13203964,
      "name": "Perfectron Hydradrive Dragon",
      "status": "Limited"
@@ -960,11 +965,6 @@
      "status": "Limited"
     },
     {
-     "id": 7293697,
-     "name": "Toon World the Perfect World",
-     "status": "Limited"
-    },
-    {
      "id": 22593417,
      "name": "Topologic Gumblar Dragon",
      "status": "Forbidden"
@@ -1040,7 +1040,7 @@
      "status": "Semi-Limited"
     }
    ],
-   "fetchedAt": "2026-11-01T13:48:55.819Z"
+   "fetchedAt": "2026-11-05T10:49:14.810Z"
   }
  }
 }
